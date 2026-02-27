@@ -1,0 +1,362 @@
+<html>
+<header>
+    <title>TEST BRANCH | TEST BRANCH | The TRIA Difficulty List</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="../assets/MapmakersWorkshop.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../css/tria/difficultylist.css">
+
+    <!-- Embed -->
+    <meta content="TEST BRANCH | TRIA.os Difficulty List" property="og:title" />
+    <meta content="TEST BRANCH | The TRIA.os Difficulty List of the hardest maps in the game." property="og:description" />
+    <meta content="https://cametized.xyz/" property="og:url" />
+    <meta content="https://tria.cametized.xyz/assets/tdlLogo.png" property="og:image" />
+    <meta content="#fc8403" data-react-helmet="true" name="theme-color" />
+</header>
+<body>
+    <div id="header">
+        <div id="headerLeft">
+            <img id="diffListLogo" src="../assets/TRIA/DifficultyListLogo.png">
+        </div>
+        
+        <div id="headerRight">
+            <a href="https://github.com/Ethan76167/TRIA.OS-Difficulty-List">Contribute</a>
+        </div>
+    </div>
+
+    <div id="buttons">
+        <div id="viewlist" onclick="switchPage('list')">List</div>
+        <div id="viewbulletin" onclick="switchPage('bulletin')">Bulletin</div>
+    </div>
+
+    <div id="scrollers">
+        <div id="listScroller">
+            <div id="eternal" class="difficultyGroup">
+                <div class="difficultyIcon">
+                    <img src="../assets/TRIA/Difficulties/Eternal.png">
+                </div>
+                <p>ETERNAL</p>
+                <div class="horizontalDivider"></div>
+                <p id="exemption">[7.00+]</p>
+            </div>
+
+            <div class="map" id="template" onclick="expandDetails(this)">
+                <div class="normalLayout">
+                    <iframe class="youtubeVideo" height="100%" src="https://www.youtube.com/embed/H0uV7e53ujc" title="Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="infoLayout">
+                        <div id="upperDetails">
+                            <p id="rating">#1 [6.8. Die.]</p>
+                            <p id="name">this a template pls</p>
+                        </div>
+                        <div id="lowerDetails">
+                            <div id="id">1234ABC</div>
+                            <p id="creators">you know who</p>
+                        </div>
+                        <div id="labels">
+                            <img id="awards" src="../assets/TRIA/Awards/2.png">
+                            
+                            <img id="skill0" src="../assets/TRIA/Skills/0.png">
+                            <img id="skill1" src="../assets/TRIA/Skills/1.png">
+                            <img id="skill2" src="../assets/TRIA/Skills/2.png">
+                            <img id="skill3" src="../assets/TRIA/Skills/3.png">
+                            <img id="skill4" src="../assets/TRIA/Skills/4.png">
+                            <img id="skill5" src="../assets/TRIA/Skills/5.png">
+                        </div>
+                    </div>
+                </div>
+                <div id="divider"></div>
+                <div class="expandedLayout">
+                    <div id="tenVictors">
+                        <div id="victorCategory">FIRST 10 VICTORS</div>
+                        <div class="victorCard" id="v0">RockyTanker</div>
+                        <div class="victorCard" id="v1">RockyTanker</div>
+                        <div class="victorCard" id="v2">RockyTanker</div>
+                        <div class="victorCard" id="v3">RockyTanker</div>
+                        <div class="victorCard" id="v4">RockyTanker</div>
+                        <div class="victorCard" id="v5">RockyTanker</div>
+                        <div class="victorCard" id="v6">RockyTanker</div>
+                        <div class="victorCard" id="v7">RockyTanker</div>
+                        <div class="victorCard" id="v8">RockyTanker</div>
+                        <div class="victorCard" id="v9">RockyTanker</div>
+                        <div class="victorPlaceholder">Cannot be displayed</div>
+                    </div>
+                    <div id="otherInfo">
+                        <div id="title">Statistics</div>
+                        <div id="container">
+                            <div id="descriptionContainer">
+                                <div id="medalStatus"><img src="../assets/TRIA/Medal/No.png"> &nbsp; N/A</div>
+                                <p id="description">
+                                    <span style="font-family: 'Gontserrat Semibold';">Description</span><br>
+                                    <span id="descriptionText">N/A</span>
+                                    <br><br>
+                                    <span style="font-family: 'Gontserrat Semibold'">Music</span><br>
+                                    <span id="music">N/A</span>
+                                    <br>
+                                    <span style="font-family: 'Gontserrat Semibold';">Published</span><br>
+                                    <span id="date">N/A</span>
+                                </p>
+                                <a id="titleBlock">ALEPH ONE</a>
+                            </div>
+                            <div id="stats">
+                                <div id="buttonCount">
+                                    <p>N/A</p>
+                                    <a>Button Count</a>
+                                </div>
+                                <div id="mapLength">
+                                    <p>N/A</p>
+                                    <a>Map Length</a>
+                                </div>
+                                <div id="instances">
+                                    <p>N/A</p>
+                                    <a>Instances</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="divine" class="difficultyGroup">
+                <div class="difficultyIcon">
+                    <img src="../assets/TRIA/Difficulties/Divine.png">
+                </div>
+                <p>DIVINE</p>
+                <div class="horizontalDivider"></div>
+                <p id="exemption">[6.00-6.99]</p>
+            </div>
+
+                <div id="extreme" class="difficultyGroup">
+                <div class="difficultyIcon">
+                    <img src="../assets/TRIA/Difficulties/Extreme.png">
+                </div>
+                <p>EXTREME</p>
+                <div class="horizontalDivider"></div>
+                <p id="exemption">[5.00-5.99]</p>
+            </div>
+
+                <div id="insane" class="difficultyGroup">
+                <div class="difficultyIcon">
+                    <img src="../assets/TRIA/Difficulties/Insane.png">
+                </div>
+                <p>INSANE</p>
+                <div class="horizontalDivider"></div>
+                <p id="exemption">[4.00-4.99]</p>
+            </div>
+
+                <div id="hard" class="difficultyGroup">
+                <div class="difficultyIcon">
+                    <img src="../assets/TRIA/Difficulties/Hard.png">
+                </div>
+                <p>HARD</p>
+                <div class="horizontalDivider"></div>
+                <p id="exemption">[3.00-3.99]</p>
+            </div>
+
+            <div id="normal" class="difficultyGroup">
+                <div class="difficultyIcon">
+                    <img src="../assets/TRIA/Difficulties/Normal.png">
+                </div>
+                <p>NORMAL</p>
+                <div class="horizontalDivider"></div>
+                <p id="exemption">[2.00-2.99]</p>
+            </div>
+
+            <div id="easy" class="difficultyGroup">
+                <div class="difficultyIcon">
+                    <img src="../assets/TRIA/Difficulties/Easy.png">
+                </div>
+                <p>EASY</p>
+                <div class="horizontalDivider"></div>
+                <p id="exemption">[1.00-1.99]</p>
+            </div>
+        </div>
+        <div class="verticalDivider"></div>
+        <div id="bulletin">
+
+            <!-- Database Changelog -->
+            <div class="bulletinCard" style="border-color: #c800e9;">
+                <div id="bHeader" style="background-color: #ca00e92d;">
+                    <a id="category">>> DATABASE [X/X/XXXX]</a><br>
+                    <a id="name">CHANGELOG</a>
+                </div>
+
+                <div id="bBody">
+                    you better call the vet cause these puppies are SICK
+                </div>
+            </div>
+
+            <!-- Webpage Changelog -->
+            <div class="bulletinCard" style="border-color: #ffb300;">
+                <div id="bHeader" style="background-color: #e9ab002d;">
+                    <a id="category">>> WEBPAGE [1/27/2025]</a><br>
+                    <a id="name">CHANGELOG</a>
+                </div>
+
+                <div id="bBody">
+                    Welcome to the TRIA Difficulty List! The webpage is currently in progress of migrating its existing data to the new system so that this page can accurately display the list rankings.<br><br>
+
+                    The expanded layout has now been added to support additional data for maps. However, the current database hasn't been fully migrated to the new format, so all the info from the expanded layout is empty for now. You can click on a map card to view its expanded details.<br><br>
+                    
+                    - RockyTanker
+                </div>
+            </div>
+
+            <!-- About -->
+            <div class="bulletinCard" style="border-color: #c5c5c5;">
+                <div id="bHeader" style="background-color: #ffffff2d;">
+                    <a id="category">&nbsp</a><br>
+                    <a id="name">About</a>
+                </div>
+
+                <div id="bBody">
+                    Welcome to the TRIA.OS Difficulty List! This is an official outlet for recognizing the hardest maps in TRIA, with a team working to update, review and give an accurate view of the difficulty of certain maps within the higher difficulties.
+                </div>
+
+                <div id="bButtons">
+                    <a href="https://discord.gg/avVtRqjKme" style="margin-right: 2%;"> Discord</a>
+                    <a href="https://github.com/Ethan76167/TRIA.OS-Difficulty-List" style="margin-left: 2%;">GitHub</a>
+                </div>
+            </div>
+
+            <!-- Contributors -->
+            <div class="bulletinCard" style="border-color: #07ca00;">
+                <div id="bHeader" style="background-color: #00e9322d;">
+                    <a id="category">&nbsp</a><br>
+                    <a id="name">Contributors</a>
+                </div>
+
+                <div id="bBody">
+                    This site and its database is proudly maintained by our staff team!<br><br>
+
+                    <!-- MAINTAINERS -->
+                    <a id="contributorCategory">>> MAINTAINERS</a>
+                    <div class="contributorCard" id="maintainers">
+                        <img src="../assets/TRIA/List Contributors/RockyTanker.png"> &nbsp;
+                        RockyTanker [Original Hoster]
+                    </div>
+                     <div class="contributorCard" id="maintainers">
+                        <img src="../assets/TRIA/List Contributors/Cametized.jpg"> &nbsp; <!-- Ok I manage now -->
+                        Cametized
+                    </div>
+                    <div class="contributorCard" id="maintainers">
+                        <img src="../assets/TRIA/List Contributors/Ethan76167.png"> &nbsp;
+                        Ethan76167
+                    </div>
+                    <div class="contributorCard" id="maintainers">
+                        <img src="../assets/TRIA/List Contributors/Enszo.png"> &nbsp; <!-- people wont know who Era is they know Enszo gngalang -->
+                        Enszo
+                    </div>
+
+                    <!-- MANAGEMENT --><br>
+                    <a id="contributorCategory">>> MANAGEMENT</a>
+                    <div class="contributorCard" id="management">
+                        <img src="../assets/TRIA/List Contributors/emoji9.png"> &nbsp;
+                        emoji_9
+                    </div>
+                    <div class="contributorCard" id="management">
+                        <img src="../assets/TRIA/List Contributors/EpicG.png"> &nbsp;
+                        EpicG
+                    </div>
+                    <div class="contributorCard" id="management">
+                        <img src="../assets/TRIA/List Contributors/LegendsFusions.png"> &nbsp;
+                        LegendsFusions
+                    </div>
+                    <div class="contributorCard" id="management">
+                        <img src="../assets/TRIA/List Contributors/Shortzaz0.png"> &nbsp;
+                        ShortZaz0
+                    </div>
+
+                    <!-- MAP RANKING JUDGES --><br>
+                    <a id="contributorCategory">>> MAP RANKING JUDGES</a>
+                    
+                    <div class="contributorCard" id="mapRankingJudges">
+                        <img src="../assets/TRIA/List Contributors/Kyo.png"> &nbsp;
+                        Kyo
+                    </div>
+                    <div class="contributorCard" id="mapRankingJudges">
+                        <img src="../assets/TRIA/List Contributors/Corey.png"> &nbsp;
+                        attcorey
+                    </div>
+                    <div class="contributorCard" id="mapRankingJudges">
+                        <img src="../assets/TRIA/List Contributors/letgabe.png"> &nbsp;
+                        letgabe3
+                    </div>
+                    <div class="contributorCard" id="mapRankingJudges">
+                        <img src="../assets/TRIA/List Contributors/MacroX2.png"> &nbsp;
+                        MacroX2
+                    </div>
+                    <div class="contributorCard" id="mapRankingJudges">
+                        <img src="../assets/TRIA/List Contributors/notginger.png"> &nbsp;
+                        notginger
+                    </div>
+                    <div class="contributorCard" id="mapRankingJudges">
+                        <img src="../assets/TRIA/List Contributors/Shaadth.gif"> &nbsp;
+                        Shaadth
+                    </div>
+                    <div class="contributorCard" id="mapRankingJudges">
+                        <img src="../assets/TRIA/List Contributors/Skullpinkie.png"> &nbsp;
+                        skullpinkle
+                    </div>
+                    <div class="contributorCard" id="mapRankingJudges">
+                        <img src="../assets/TRIA/List Contributors/tehscoop.png"> &nbsp;
+                        TehScoop
+                    </div>
+                    <div class="contributorCard" id="mapRankingJudges">
+                        <img src="../assets/TRIA/List Contributors/Zig.png"> &nbsp;
+                        Zig
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div id="leftFooter">
+            <img id="logo" src="../assets/TRIA/Logo.webp">
+
+            <div id="footer1" class="footerSection">
+                <p id="footerTitle">
+                    <a id="code">01</a><br>
+                    <a id="label">TRIA.OS</a>
+                </p>
+                <p id="footerButtons">
+                    <b><a class="specialText" href="https://www.roblox.com/games/6311279644">Play TRIA.OS</a></b>
+                    <a>Repository</a>
+                    <a>List Server</a>
+                    <a class="disabled">Main List</a>
+                    <a class="disabled">Public Map List</a>
+                </p>
+            </div>
+            
+            <div id="footer2" class="footerSection">
+                <p id="footerTitle">
+                    <a id="code">02</a><br>
+                    <a id="label">ROCKYTANKER.NET</a>
+                </p>
+                <p id="footerButtons">
+                    <a>Home</a>
+                    <a>Projects</a>
+                    <a>Mapmaker's Workshop</a>
+                </p>
+            </div>
+        </div>
+
+        <div id="rightFooter">
+            <div id="footerTitle">
+                <a id="code">RTK</a><br>
+            </div>
+            <p>
+                2026 ROCKYTANKER. All copyrighted assets displayed, such as logos and trademarks, are property of their respective owners and is subject to fair use.<br><br>
+                <b>Contact:</b><br>
+                contact@rockytanker.net
+            </p>
+
+    </footer>
+
+    <script type="text/javascript" src="difficultylist.js"></script>
+</body>
+</html>
