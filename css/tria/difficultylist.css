@@ -1,0 +1,683 @@
+/* CSS Test Fix */
+
+@font-face {
+    font-family: "Gontserrat Regular";
+    src: url(../../assets/fonts/Gontserrat\ Regular.ttf);
+}
+
+@font-face {
+    font-family: "Gontserrat Semibold";
+    src: url(../../assets/fonts/Gontserrat\ Semibold.ttf);
+}
+
+
+@font-face {
+    font-family: "Oxanium Regular";
+    src: url(../../assets/fonts/Oxanium\ Regular.ttf);
+}
+
+@font-face {
+    font-family: "Oxanium Bold";
+    src: url(../../assets/fonts/Oxanium\ Bold.ttf);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Gontserrat Regular";
+    background-image: url(../../assets/TRIA/DifficultyListBG.png);
+    background-size: cover;
+}
+
+body html {
+  height: 100%;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    
+    /* Border */
+    border-image-slice: 1;
+    border-top: 10px solid;
+    border-image: linear-gradient(90deg, #ffb100 0%, #c800e9 100%) 1;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+    footer #leftFooter {
+        display: flex;
+        flex-direction: row;
+        padding: 2% 5%;
+    }
+    
+        footer #leftFooter img {
+            height: 150px;
+        }  
+
+        .footerSection {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-left: 5%;
+        }
+
+            .footerSection #footerButtons {
+                padding-top: 20%;
+                display: flex;
+                flex-direction: column;
+                white-space: nowrap;
+            }
+
+                #footerButtons .specialText {
+                    color: #c800e9;
+                }
+
+                #footerButtons .disabled {
+                    color: #949494;
+                }
+
+        #footerTitle {
+            line-height: 1.7rem;
+        }
+
+            #footerTitle #code {
+                opacity: 50%;
+                font-size: 2rem;
+                font-family: "Oxanium Regular";
+            }
+
+            #footerTitle #label {
+                opacity: 50%;
+                font-size: 1.8rem;
+                font-family: "Gontserrat Semibold";
+            }
+
+    footer #rightFooter {
+        display: flex;
+        flex-direction: row;
+        padding: 2% 5%;
+        max-width: 20%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+        #rightFooter p {
+        padding-top: 5%;
+    }
+
+.bulletinCard {
+    width: 100%;
+    border: 3px solid;
+    margin-bottom: 4%;
+}
+
+    #bHeader {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 6%;
+        padding-bottom: 3%;
+
+        white-space: nowrap;
+        line-height: 1.6rem;
+    }
+
+        #bHeader #category {
+            font-family: "Gontserrat Regular";
+            font-size: 1rem;
+        }
+
+        #bHeader #name {
+             font-family: "Gontserrat Semibold";
+            font-size: 2.4rem;
+        }
+
+            #bButtons {
+                display: flex;
+                margin: 0 5%;
+                justify-content: space-around;
+                padding-bottom: 5%;
+
+                align-items: center;
+                text-align: center;
+            }
+
+                #bButtons a {
+                    background-color: #575757;
+                    border-radius: 100px;
+                    width: 100%;
+                    padding: 2%;
+                }
+
+                    #bButtons a:hover {
+                    background-color: #383838;
+                }
+
+    #bBody {
+        padding: 5%;
+        font-size: 1.2rem;
+    }
+
+
+.contributorCard {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-family: "Oxanium Regular";
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+    .contributorCard img {
+        height: 100%;
+    }
+
+    .contributorCard#maintainers {
+        background-color: #00ff4c25;
+    }
+
+    .contributorCard#management {
+        background-color: #ff00d425;
+    }
+
+    .contributorCard#mapRankingJudges {
+        background-color: #ffa60025;
+    }
+
+#contributorCategory {
+    font-family: "Oxanium Regular";
+    font-size: 1.4rem;
+}
+
+#victorCategory {
+    font-family: "Gontserrat Semibold";
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.victorCard {
+    align-items: center;
+    height: 30px;
+    font-family: "Gontserrat Regular";
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+    padding: 0 1rem;
+    background-color: #ffffff49;
+    display: none;
+}
+
+.victorPlaceholder {
+    align-items: center;
+    font-family: "Gontserrat Regular";
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+    padding: 0 1rem;
+    background-color: #ffffff49;
+    display: flex;
+}
+
+    .victorCard img {
+        height: 100%;
+    }
+
+.map {
+    padding: 3%;
+    margin: 3% 5% 3% 50px;
+    background-color: #00000086;
+    
+    border-style: dashed;
+    border-color: #a7a7a7;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+    .map .normalLayout {
+        display: flex;
+        flex-direction: row;
+    }
+
+        .map:hover {
+            background-color: #4d4d4d86;
+            transition: ease-in 100ms;
+        }
+
+        .youtubeVideo {
+            align-self: center;
+        }
+
+        /* KEEP THIS DISABLED UNLESS YOU NEED TO EDIT SMTH */
+        .map#template {
+            display: none;
+        }
+
+        .map .infoLayout {
+            padding-left: 2%;
+
+            display: flex;
+            flex-direction: column-reverse;
+        }
+            .infoLayout #lowerDetails {
+                display: flex;
+            }
+
+                .infoLayout #lowerDetails p {
+                    
+                    margin-block: unset;
+                }
+
+                .infoLayout #lowerDetails #id {
+                    background-color: white;
+                    color: black;
+                    padding: 0.1rem 0.5rem;
+                    margin-right: 0.5rem;
+                    font-size: 1.2rem;
+                    
+                    align-self: flex-start;
+                    font-family: "Oxanium Bold";
+                    border-radius: 5px;
+                }
+
+            .infoLayout #upperDetails p {
+                display: inline;
+                margin-block: unset;
+                font-size: 5rex;
+            }
+                .infoLayout #upperDetails #rating {
+                    font-family: "Oxanium Regular";
+                    color: rgb(255, 73, 73);
+            }
+
+        .expandedLayout {
+            display: none;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+            #divider {
+                display: none;
+                margin-top: 1.5%;
+                margin-bottom: 1.5%;
+                border-top: 2px dashed;
+                border-color: #ffffff;
+                width: 100%;
+            }
+
+            .expandedLayout #tenVictors {
+                border: 3px solid;
+                border-color: #ffffff1f;
+                width: 100%;
+                margin-right: 1%;
+                padding: 2%;
+            }
+
+            .expandedLayout #otherInfo {
+                border: 3px solid;
+                border-color: #ffffff1f;
+                width: 100%;
+                margin-left: 1%;
+                padding: 2%;
+                flex-direction: column;
+            }
+
+                #otherInfo #title {
+                    text-align: center;
+                    font-family: "Gontserrat Semibold";
+                    font-size: 1.4rem;
+                    margin-bottom: 10px;
+                }
+
+                #otherInfo #container {
+                    display: flex;
+                    flex-direction: row;
+                }
+
+                #otherInfo #descriptionContainer {
+                    display: inline-flex;
+                    flex-direction: column;
+                    background-color: #ffffff49;
+                    justify-content: space-between;
+                    width: 60%;
+                }
+
+                    #descriptionContainer #medalStatus {
+                        padding: 3%;
+                        height: 30px;
+                        align-items: center;
+                        display: flex
+                    }
+
+                        #descriptionContainer #medalStatus img {
+                            height: 100%;
+                        }
+
+                    #descriptionContainer p {
+                        padding: 3%;
+                        margin: 0;
+                    }
+
+                #otherInfo #stats {
+                    width: 40%;
+                    margin-left: 2%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+
+                    #stats div {
+                        display: inline-flex;
+                        flex-direction: column;
+                        height: 98%;
+                        width: 100%;
+                        background-color: #ffffff49;
+                        margin-bottom: 5%;
+                        justify-content: space-between;
+                    }
+
+                        #stats #instances {
+                            margin: 0;
+                        }
+
+                        #stats div p {
+                            text-align: center;
+                            height: 100%;
+                            font-family: "Oxanium Regular";
+                            font-size: 2.4rem;
+                            margin: 0;
+                            padding: 10px;
+                            align-content: center;
+                            flex-wrap: wrap;
+                        }
+
+                #otherInfo a {
+                    text-align: center;
+                    font-family: "Oxanium Bold";
+                    width: 100%;
+                    background-color: #383838;
+                    color: white;
+                }
+
+                    #otherInfo a#titleBlock {
+                        letter-spacing: 0.5rem;
+                        text-transform: uppercase;
+                    }
+
+#labels img {
+    padding-top: 5%;
+    height: 40px;
+}
+
+#skill0, #skill1, #skill2, #skill3, #skill4, #skill5 {
+    opacity: 50%;
+}
+
+.addPadding {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.difficultyGroup {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+}
+
+    .difficultyGroup .difficultyIcon {
+        height: 100%;
+        max-width: 40px;
+
+        display: flex;
+        align-items: center;
+    }
+
+        .difficultyIcon img {
+            width: 100%;
+            float: right;
+        }
+
+    .difficultyGroup p {
+        padding-left: 10px;
+        padding-right: 2%;
+        font-size: large;
+        opacity: 50%;
+    }
+        .difficultyGroup p#exemption {
+            size: 50rem;
+            opacity: 100%;
+            padding-right: 5%;
+            float: right;
+            justify-content: right;
+            white-space: nowrap;
+        }
+
+    .difficultyGroup .horizontalDivider {
+        padding-left: 10px;
+        width: 100%;
+        height: 4px;
+        background-image: linear-gradient(90deg, #ffffff 0%, #ffffff00 100%);
+    }
+
+#main {
+    /* Parallax */
+    background-image: url("../../assets/TRIA/DifficultyListBG.png");
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    background-color: black;
+    height: 7%;
+    width: 100%;
+    
+    border-image-slice: 1;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(90deg, #c800e9 0%, #ffb100 100%) 1;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+    #headerLeft {
+        padding-left: 5%;
+        
+        display: flex;
+        align-items: center;
+
+        height: 100%;
+    }
+
+    #headerRight {
+        padding-right: 5%;
+        
+        display: flex;
+        align-items: center;
+
+        height: 100%;
+    }
+
+    #diffListLogo {
+        height: 60%;
+    }
+
+    #headerRight a {
+        padding: 20px;
+        font-size: 1.4rem;
+        transition: ease-in 200ms;
+    }
+
+    #headerRight a:hover {
+        background-color: white;
+        color: black;
+    }
+
+    #headerRight a:active {
+        transition: none;
+        background-color: #a7a7a7;
+    }
+
+#scrollers {
+    padding: 3% 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+    #listScroller {
+        display: block;
+        width: 70%;
+    }
+
+    #bulletin {
+        display: block;
+        width: 30%;
+    }
+
+#buttons {
+    display: none;
+}
+
+/*
+.map {
+    background-image: url(https://cdn.discordapp.com/attachments/597646372388470787/1467866520003678342/Screenshot_2026-02-01_214738.png?ex=6981f0ba&is=69809f3a&hm=9baccfe8638b3df4de66be735278a0ba8ea04a561b220aa4a0da453bbe25d703&)
+}
+
+#bBody {
+    background-image: url(https://cdn.discordapp.com/attachments/597646372388470787/1467866520003678342/Screenshot_2026-02-01_214738.png?ex=6981f0ba&is=69809f3a&hm=9baccfe8638b3df4de66be735278a0ba8ea04a561b220aa4a0da453bbe25d703&)
+}
+
+#scrollers {
+    background-image: url(https://cdn.discordapp.com/attachments/597646372388470787/1467866520003678342/Screenshot_2026-02-01_214738.png?ex=6981f0ba&is=69809f3a&hm=9baccfe8638b3df4de66be735278a0ba8ea04a561b220aa4a0da453bbe25d703&)
+}
+
+p {
+    background-image: url(https://cdn.discordapp.com/attachments/597646372388470787/1467866520003678342/Screenshot_2026-02-01_214738.png?ex=6981f0ba&is=69809f3a&hm=9baccfe8638b3df4de66be735278a0ba8ea04a561b220aa4a0da453bbe25d703&)
+}
+
+#header {
+    background-image: url(https://cdn.discordapp.com/attachments/597646372388470787/1467866520003678342/Screenshot_2026-02-01_214738.png?ex=6981f0ba&is=69809f3a&hm=9baccfe8638b3df4de66be735278a0ba8ea04a561b220aa4a0da453bbe25d703&)
+}
+
+*/
+
+/* Downscale 1 */
+@media screen and (max-width: 1042px) {
+    
+    #bulletin {
+        width: 100%;
+    }
+
+    #header {
+        justify-content: center;
+    }
+
+        #headerLeft {
+            padding-left: 5%;
+            padding-right: 5%;
+            
+            display: flex;
+            align-items: center;
+
+            height: 100%;
+        }
+        
+        #headerRight {
+            display: none;
+        }
+
+    #bulletin, #verticalDivider {
+        display: none;
+    }
+
+    #listScroller {
+        width: 100%;
+    }
+
+    #buttons {
+        display: flex;
+        justify-content: space-around;
+        padding: 3% 4% 1% 4%;
+    }
+
+        #buttons div {
+            padding: 1%;
+            margin: 2%;
+            background-color: rgba(7, 11, 34, 0.5);
+
+            border-style: solid;
+            border-color: #ffffff;
+            border-radius: 20px;
+
+            font-size: 1.3rem;
+            width: 100%;
+
+            text-align: center;
+            transition: ease-in 100ms;
+        }
+
+        #buttons div:hover {
+            background-color: rgb(255, 255, 255);
+            color: black;
+        }
+
+        #buttons .active {
+            background-color: rgba(170, 170, 170, 0.5);
+        }
+
+    .map .normalLayout {
+        flex-direction: column;
+    }
+
+    .youtubeVideo {
+        width: 100%;
+        height: auto;
+    }
+
+    #leftFooter #logo {
+        display: none;
+    }
+
+    footer {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+
+        font-size: 1.4rem;
+        line-height: 2.5rem
+    }
+
+        footer .footerSection {
+            padding-top: 10%;
+        }
+
+        footer #leftFooter {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        footer #rightFooter {
+            max-width: 50%;
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+
+        .footerSection #footerButtons {
+            padding-top: 0%;
+        }
+
+    .map {
+        margin: 3% 0;
+    }
+
+    .difficultyGroup p#exemption {
+        padding: 0%;
+    }
+}
