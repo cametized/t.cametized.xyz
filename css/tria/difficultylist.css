@@ -241,7 +241,7 @@ footer {
     }
 
         .map:hover {
-            background-color: #4d4d4d86;
+            background-color: #20202086;
             transition: ease-in 100ms;
         }
 
@@ -256,35 +256,46 @@ footer {
 
         .map .infoLayout {
             padding-left: 2%;
-
             display: flex;
-            flex-direction: column-reverse;
+            flex-direction: column;
+            margin: 10px 0;
+            height: 100%;
         }
             .infoLayout #lowerDetails {
                 display: flex;
+                flex: 1;
+                align-items: center;
             }
 
                 .infoLayout #lowerDetails p {
-                    
                     margin-block: unset;
                 }
 
                 .infoLayout #lowerDetails #id {
+                    position: relative;
+                    top: 10px;
                     background-color: white;
                     color: black;
                     padding: 0.1rem 0.5rem;
                     margin-right: 0.5rem;
                     font-size: 1.2rem;
-                    
                     align-self: flex-start;
                     font-family: "Oxanium Bold";
                     border-radius: 5px;
+                }
+                
+                .infoLayout #lowerDetails #creators {
+                    position: relative;
+                    top: 10px;
+                    font-family: "Oxanium Regular";
+                    opacity: 50%;
                 }
 
             .infoLayout #upperDetails p {
                 display: inline;
                 margin-block: unset;
-                font-size: 5rex;
+                font-size: 36px;
+                color: whitesmoke;
             }
                 .infoLayout #upperDetails #rating {
                     font-family: "Oxanium Regular";
@@ -411,7 +422,10 @@ footer {
 }
 
 #skill0, #skill1, #skill2, #skill3, #skill4, #skill5 {
+    display: absolute;
     opacity: 50%;
+    position: relative;
+    left: 15rem;
 }
 
 .addPadding {
