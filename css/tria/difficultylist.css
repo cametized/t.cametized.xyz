@@ -43,7 +43,7 @@ footer {
     /* Border */
     border-image-slice: 1;
     border-top: 10px solid;
-    border-image: linear-gradient(90deg, #ffb100 0%, #c800e9 100%) 1;
+    border-image: linear-gradient(90deg, #ffb100 0%, #008ce9 100%) 1;
 
     display: flex;
     justify-content: space-between;
@@ -74,7 +74,7 @@ footer {
             }
 
                 #footerButtons .specialText {
-                    color: #c800e9;
+                    color: #3e00e9;
                 }
 
                 #footerButtons .disabled {
@@ -238,6 +238,8 @@ footer {
     .map .normalLayout {
         display: flex;
         flex-direction: row;
+        border-radius: 5px;
+        border: none;
     }
 
         .map:hover {
@@ -258,7 +260,7 @@ footer {
             padding-left: 2%;
             display: flex;
             flex-direction: column;
-            margin: 10px 0;
+            margin: 7.5px 0;
             height: 100%;
         }
             .infoLayout #lowerDetails {

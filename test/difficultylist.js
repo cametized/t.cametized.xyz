@@ -159,18 +159,19 @@ function compileData() {
             case 1:
                 map.querySelector(".youtubeVideo").style.border = "2px solid"
                 map.querySelector(".youtubeVideo").style.borderImageSlice = "1"
-                map.querySelector(".youtubeVideo").style.borderImage = "linear-gradient(45deg, #ff00aa 0%, #ffee00 100%) 1"
+                map.querySelector(".youtubeVideo").style.borderImage = "linear-gradient(25deg, #ff00aa 0%, #ff0040 100%) 1"
                 
                 break;
             case 2:
                 map.querySelector(".youtubeVideo").style.border = "2px solid"
                 map.querySelector(".youtubeVideo").style.borderImageSlice = "1"
-                map.querySelector(".youtubeVideo").style.borderImage = "linear-gradient(45deg, #ff6600 0%, #eeff00 100%) 1"
+                map.querySelector(".youtubeVideo").style.borderImage = "linear-gradient(25deg, #ff6600 0%, #ffe600 100%) 1"
                 
                 break;
             default:
                 map.querySelector(".youtubeVideo").style.border = "2px solid"
-                map.querySelector(".youtubeVideo").style.borderColor = "#ffffff"
+                map.querySelector(".youtubeVideo").style.borderImageSlice = "1"
+                map.querySelector(".youtubeVideo").style.borderImage = "linear-gradient(25deg, #43f9ff 0%, #50b0ff 100%) 1"
 
                 break;
         }
