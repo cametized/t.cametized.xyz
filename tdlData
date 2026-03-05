@@ -46,17 +46,17 @@ Buttons:
 
 || SELECT ||
 Skills:
- [#] Walljumps
- [#] Wallruns
- [] Dive
- [] Linear Sliding
- [] Momentum Sliding
- [] Orbs
+  [#] Walljumps
+  [#] Wallruns
+  [] Dive
+  [] Linear Sliding
+  [] Momentum Sliding
+  [] Orbs
 Awards:
- [] Featured
- [] Revolutionary
+  [] Featured
+  [] Revolutionary
 Has Medal:
- [] Yes
+  [] Yes
 
 || DESCRIPTION ||
 Unfinished
