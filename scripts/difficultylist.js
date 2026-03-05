@@ -1,5 +1,5 @@
 // Initialization
-const link = "../tdlData"
+const link = "https://raw.githubusercontent.com/cametized/t.cametized.xyz/refs/heads/main/tdlData"
 var result, fetched
 var listArray = []
 
