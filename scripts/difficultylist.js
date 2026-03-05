@@ -59,7 +59,7 @@ function compileData() {
             var rating = iteration.match(/[\d.]+[^\]]/g)
             newArray.Overview.Rating = rating[rating.length - 1]
 
-            newArray.Overview.Creators = separated[i + 2].substring(10).split(", ")
+            newArray.Overview.Creators = separated[i + 2].substring(10).split(",  ")
             //newArray.Overview.Creators[0] = newArray.Overview.Creators[0].substring(10)
             
             newArray.Overview.ID = separated[i + 1].substring(4)
