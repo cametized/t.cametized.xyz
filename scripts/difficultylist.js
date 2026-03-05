@@ -1,5 +1,5 @@
 // Initialization
-const link = "https://raw.githubusercontent.com/Ethan76167/TRIA.OS-Difficulty-List/refs/heads/main/data"
+const link = "../tdlData"
 var result, fetched
 var listArray = []
 
