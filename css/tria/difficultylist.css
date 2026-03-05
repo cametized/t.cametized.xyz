@@ -430,9 +430,12 @@ footer {
     left: 15rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     #skill0, #skill1, #skill2, #skill3, #skill4, #skill5 {
-        right: 10vw;
+        display: absolute;
+        opacity: 50%;
+        position: relative;
+        right: 0rem;
     }
 }
 
