@@ -1,3 +1,3 @@
 lol
-https://t.cametized.xyz/tdl
-https://t.cametized.xyz/test/tdl
+https://tria.cametized.xyz/tdl
+https://tria.cametized.xyz/test/tdl
