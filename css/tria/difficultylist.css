@@ -436,12 +436,6 @@ footer {
     }
 }
 
-@media screen and (max-width: 768px) {
-    #skill0, #skill1, #skill2, #skill3, #skill4, #skill5 {
-        right: 15rem;
-    }
-}
-
 .addPadding {
     padding-left: 5%;
     padding-right: 5%;
