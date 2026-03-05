@@ -279,6 +279,18 @@ addEventListener("resize", function() {
     }
 })
 
+//Bull
+function checkLol() {
+    if (window.innerWidth <= 768) {
+        document.body.classList.add("mobile");
+    } else {
+        document.body.classList.remove("mobile");
+    }
+}
+
+checkLol();
+window.addEventListener("resize", checkLol);
+
 // Check scroll even
 /*
 
