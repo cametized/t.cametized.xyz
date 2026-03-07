@@ -188,6 +188,10 @@ footer {
         background-color: #ffa60025;
     }
 
+    .contributorCard#retiredJudges {
+        background-color: #ff002225;
+    }
+
 #contributorCategory {
     font-family: "Oxanium Regular";
     font-size: 1.4rem;
