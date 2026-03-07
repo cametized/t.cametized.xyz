@@ -424,17 +424,11 @@ footer {
 }
 
 #skill0, #skill1, #skill2, #skill3, #skill4, #skill5 {
-    display: absolute;
     opacity: 50%;
-    position: relative;
-    left: 15rem;
 }
 
 body.mobile #skill0, body.mobile #skill1, body.mobile #skill2, body.mobile #skill3, body.mobile #skill4, body.mobile #skill5 {
-    display: absolute;
     opacity: 50%;
-    position: relative;
-    left: 0rem;
 }
 
 .addPadding {
