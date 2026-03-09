@@ -83,7 +83,7 @@ Buttons: 0
 || SELECT ||
 Skills:
   [#] Walljumps
-  [] Wallruns 
+  [#] Wallruns 
   [#] Dive 
   [#] Linear Sliding
   [] Momentum Sliding
