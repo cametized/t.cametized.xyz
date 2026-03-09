@@ -110,7 +110,7 @@ function compileData() {
     var currentDifficulty = 0
     const diffIds = ["#eternal", "#divine", "#extreme", "#insane", "hard", "#normal", "#easy"]
     const diffColors = [
-        "#ffffff",
+        "#e7e7e7",
         "#ff0080",
         "#ff8800",
         "#ae00ff",
