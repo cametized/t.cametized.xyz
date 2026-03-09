@@ -111,7 +111,7 @@ function compileData() {
     const diffIds = ["#eternal", "#divine", "#extreme", "#insane", "hard", "#normal", "#easy"]
     const diffColors = [
         "#ffffff",
-        "#ff00ea",
+        "#ff0080",
         "#ff8800",
         "#ae00ff",
         "#ff0000",
