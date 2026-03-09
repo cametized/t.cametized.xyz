@@ -79,7 +79,7 @@ Buttons: 0
 || SELECT ||
 Skills:
   [#] Walljumps
-  [] Wallruns 
+  [#] Wallruns 
   [#] Dive 
   [#] Linear Sliding
   [] Momentum Sliding
@@ -196,7 +196,7 @@ Unfinished
 
 ---
 
-// ULTRADESPAIR [Legacy] [7.40]
+// ULTRADESPAIR Legacy [7.40]
 ID: iymqc
 Creators: ziafeva
 Link: https://www.youtube.com/watch?v=gTQYTIUEV-k
